@@ -10,7 +10,7 @@ public class ConnectionDB {
     private final EntityManagerFactory entityManagerFactory;
 
     public ConnectionDB() {
-        entityManagerFactory = Persistence.createEntityManagerFactory("myPersistenceUnit");
+        entityManagerFactory = Persistence.createEntityManagerFactory("lab_week_2");
     }
 
     public static ConnectionDB getInstance() {
